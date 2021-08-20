@@ -131,20 +131,13 @@ ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
 # Dalvik
-dalvik.vm.dex2oat-filter=speed
-dalvik.vm.dex2oat-threads=8
-dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heapmaxfree=8m
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapsize=512m
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.image-dex2oat-filter=speed
-dalvik.vm.image-dex2oat-threads=8
-pm.dexopt.boot=verify
-pm.dexopt.first-boot=verify
-pm.dexopt.install=speed-profile
+dalvik.vm.dex2oat64.enabled=true
 
 # Display
 ro.vendor.display.ad=1
